@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EmployeeManagementSystem.jnlp">
+  <information>
+    <title>EmployeeManagementSystem</title>
+    <vendor>rohit</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EmployeeManagementSystem.jar" size="24640" download="eager" />
+    <jar href="lib\fontawesomefx-8.2.jar" size="180341" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.10.jar" size="724225" download="eager" />
+    <jar href="lib\ojdbc8.jar" size="4488359" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="employeemanagementsystem.EmployeeManagementSystem"  name="EmployeeManagementSystem" />
+  <update check="always"/>
+</jnlp>
